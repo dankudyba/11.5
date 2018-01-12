@@ -1,0 +1,62 @@
+#carousel {
+	width: 600px;
+	height: 350px;
+	margin:  100px auto;
+	overflow: hidden;
+	position: relative;
+}
+ul {
+	padding: 0;
+	width: 3000px;
+}
+li {
+	width: 600px;
+	height: 100%;
+	list-style-type: none;
+	float: left;
+}
+
+img {
+	height: 350px;
+	width: 100%;
+}
+.nav i {
+	position: absolute;
+	font-size: 30px;
+	color: #fff;
+}
+.fa-chevron-left {
+	position: absolute;
+	top: 50%;
+	left: 20px;
+}
+.fa-chevron-right {
+	position: absolute;
+	top: 50%;
+	right: 20px;
+}
+
+.pagination {
+	position: absolute;
+	bottom: 10px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.change-slide {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	margin: 0 10px;
+}
+
+.change-slide:hover {
+	cursor: pointer;
+}
+
+.active {
+	background-color: white;
+	transition: 1s;
+}
